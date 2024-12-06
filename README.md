@@ -34,7 +34,7 @@ db.students.insertMany(
 #### Slice
 
 ```bash
-db.students.find( { name: "Alice" },  { scores: { $slice: 2 } } );
+db.students.find( { name: "Dhanush" },  { scores: { $slice: 2 } } );
 ```
 
 #### Upsert
