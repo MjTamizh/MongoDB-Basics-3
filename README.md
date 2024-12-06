@@ -41,7 +41,7 @@ db.students.find( { name: "Dhanush" },  { scores: { $slice: 2 } } );
 
 ```bash
 db.students.updateOne(
-  { name: "David" },  { $set: { scores: [80, 85, 90] } },  { upsert: true }
+  { name: "Dhanush" },  { $set: { scores: [80, 85, 90] } },  { upsert: true }
 );
 ```
 
